@@ -1,0 +1,191 @@
+.card-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.card-header {
+    background: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-transform: capitalize;
+    color: #000000;
+    height: 4rem;
+
+}
+
+.card-footer {
+    background: white;
+}
+
+.main-card {
+    border-bottom: none;
+}
+
+.header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+/* ORDER */
+
+.order-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.order-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.order-item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.order-price {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.MuiBox-root .css-19kzrtu {
+    padding: 0;
+}
+
+.order-list {
+    flex: 1;
+    overflow-y: auto;
+    height: 35rem;
+}
+
+.order-details-list {
+    flex: 1;
+    overflow-y: auto;
+    height: 23rem;
+}
+
+/* REVIEW */
+.review-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.review-details {
+    padding: 0 1rem;
+}
+
+.review-list {
+    flex: 1;
+    overflow-y: auto;
+    height: 45rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    .review-details {
+        padding: 0;
+    }
+
+    .order-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .order-item {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .card-title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1.2em;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .card-text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1em;
+        line-height: 1.2em;
+        text-transform: capitalize;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .review-details {
+        padding: 0;
+    }
+
+    .order-title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1.2;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+
+}

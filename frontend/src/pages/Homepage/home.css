@@ -1,0 +1,845 @@
+/* GENERAL STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: #FFFFFF;
+  padding-top: 3.5rem;
+}
+
+h1 {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: "40px";
+
+}
+
+h2 {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: "32px";
+}
+
+h3 {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: "24px";
+
+}
+
+h4 {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: "20px";
+}
+
+h5 {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: "16px";
+
+}
+
+h6 {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: "14px";
+
+}
+
+
+span {
+  font-size: 0.8rem;
+}
+
+
+button {
+  max-width: 320px;
+  display: flex;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  gap: 0.75rem;
+  color: rgb(65, 63, 63);
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .6s ease;
+}
+
+.button .google {
+  height: 24px;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.main-header {
+  font-family: 'Roboto';
+  font-style: bold;
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 1.2;
+  text-transform: capitalize;
+  text-align: center;
+  color: #000000;
+}
+
+
+
+.container {
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  margin: 2.5% auto;
+}
+
+.container-fluid {
+  padding: 10% 14%;
+}
+
+
+
+
+/* MAIN IMAGE STYLES */
+.title-img {
+  width: 90%;
+  border-radius: 0 7em;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  object-fit: contain;
+
+}
+
+.main-title h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4.625em;
+  line-height: 2;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.main-title p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESCRIPTION STYLES */
+
+.desc {
+  background: #E5E5E5;
+  text-decoration: none;
+  width: 100%;
+}
+
+.desc-post {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* SUBSCRIBE STYLES */
+.sub-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 59px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+/* SWIPER/ CAROUSEL STYLES */
+
+.mySwiper {
+  width: 100%;
+
+}
+
+/* .carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+} */
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+  height: auto;
+  font-weight: 400;
+  margin: 0 auto 20px;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 1.2;
+
+
+}
+
+
+/* HOMEPAGE TOP IMAGE */
+
+
+
+.main-text h1 {
+  color: #000000;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 74px;
+  text-transform: capitalize;
+  line-height: 85px;
+  font-weight: 300;
+  margin: 10px 0;
+  /* z-index: 99; */
+}
+
+.main-text p {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 100;
+  font-style: normal;
+  margin-bottom: 20px;
+  line-height: 55px;
+
+}
+
+
+
+
+
+/* FOOTER STYLES */
+
+
+.footer-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.footer-info {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: rgba(30, 40, 50, 0.75);
+}
+
+.footer-list {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.footer-items p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #1E2832;
+}
+
+.bottom-pay img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.bottom-container {
+  background: #1E2832;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+/* PRODUCT DETAILS STYLES */
+.img-details-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-details-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.img-details:hover {
+  border: solid 3px grey;
+
+}
+
+
+
+
+
+
+/* BLOG PAGE STYLES */
+
+.blog-img-container .blog-col img {
+  transition: 0.3s ease;
+}
+
+.blog-img-container .blog-col .blog-img {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.blog-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.blog-date {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.blog-img-container .blog-col:hover h3 {
+  color: skyblue;
+}
+
+.blog-img-container .blog-col h3 {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.blog-img-container .blog-col:hover h4 {
+  color: skyblue;
+}
+
+.blog-img-container .blog-col h4 {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.blog-img-container .blog-col:hover img {
+  transform: scale(1.3) rotate(-10deg);
+  opacity: 0.8;
+}
+
+.small-blog {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.blog-content {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.2;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT US STYLES */
+
+.about {
+  position: relative;
+
+}
+
+
+
+.about-us {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/public/images/img/back.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 70vh
+}
+
+.about-us-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5em;
+}
+
+.about-us-details hr {
+  border: 2px solid orange;
+  width: 80px;
+  margin: auto auto;
+  border-radius: 50%;
+}
+
+.about-icon img {
+  width: 100px;
+  height: 150px;
+
+
+}
+
+.about-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/public/images/img/banner/2.jpg");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: top 70px center;
+  background-repeat: no repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-title {
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.about-title h4 {
+  color: whitesmoke;
+}
+
+.about-title p {
+  color: white;
+}
+
+.about-title hr {
+  border: 2px solid orange;
+  width: 80px;
+  margin: auto auto;
+  border-radius: 50%;
+}
+
+.partners hr {
+  border: 2px solid orange;
+  width: 80px;
+  margin: auto auto;
+  border-radius: 50%;
+}
+
+.partners img {
+  height: 55%;
+  width: 45%;
+  object-fit: contain;
+}
+
+.partner-container {
+  background-color: rgba(30, 40, 50, 0.05);
+}
+
+.core hr {
+  border: 2px solid orange;
+  width: 80px;
+  margin: auto auto;
+  border-radius: 50%;
+}
+
+
+/* Payment */
+
+.pay-info p {
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+/* CART */
+
+
+.cart-footer {
+  border-top: #E3E3E3 0.1px solid;
+  height: 200px;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.cart-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: #E3E3E3 0.1px solid;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.cart-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.cart-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.close {
+  cursor: pointer;
+  border: none;
+}
+
+
+
+.fade-out {
+  animation: fadeOutLeftBig 3s ease forwards;
+}
+
+@keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* CHECKOUT */
+
+.delivery {
+  border: 0.1px solid #1E2832;
+  background-color: rgba(30, 40, 50, 0.05);
+  border-radius: 1px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.edit {
+  color: skyblue;
+  font-size: 13px;
+}
+
+.edit :hover {
+  color: purple;
+}
+
+
+
+
+
+
+
+
+/* LOGIN */
+
+
+.login-form {
+  border-right: 0.1px solid grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY SECTION */
+
+@media only screen and (max-width: 480px) {
+  body {
+    padding-top: 65px;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: 250px;
+
+  }
+
+  .subscribe h5 {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .container h4 {
+    padding-top: 5px;
+  }
+
+  .collection-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 70%;
+    height: auto;
+  }
+
+  .about-us img {
+    height: 80vh;
+
+  }
+
+
+  .partners img {
+    height: 100%;
+    width: 65%;
+    object-fit: contain;
+  }
+
+  .login-form {
+    border-bottom: 0.1px solid grey;
+  }
+
+  .title-img {
+    width: 100%;
+    height: 20em;
+    border-radius: 0 em;
+
+  }
+
+  .main-title h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3em;
+    line-height: 2;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+
+
+  .img-line {
+    display: none;
+  }
+
+  .advert-back {
+    position: absolute;
+    top: 1em;
+    left: -2em;
+  }
+
+  .advert-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 1.5;
+    text-transform: capitalize;
+
+  }
+
+  .advert-title {
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    right: 1em;
+    width: 38%;
+  }
+
+  .footer-name {
+    padding-top: 1em;
+  }
+
+  .about {
+    position: relative;
+
+  }
+
+  .about-us-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5em;
+
+  }
+
+  .main-header {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1.2;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000000;
+  }
+
+
+}
+
+@media only screen and (max-width: 1281px) {
+  .title-img {
+    width: 100%;
+    height: 30em;
+    border-radius: 0 4em;
+
+
+  }
+
+  .img-wrapper {
+    margin: auto 0;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  .img-line {
+    display: none;
+  }
+
+  .advert-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: capitalize;
+
+  }
+
+  .title-img {
+    width: 100%;
+    height: 20em;
+    border-radius: 0 5em;
+    object-fit: cover;
+
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .advert-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 1.5;
+    text-transform: capitalize;
+
+  }
+}
