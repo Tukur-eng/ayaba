@@ -64,7 +64,7 @@ Clone the repository:
 Code snippet
 
 ```
-git clone https://github.com/Nuellity/e-commerce-fullstack.git
+git clone https://github.com/tukur-eng/e-commerce-fullstack.git
 
 ```
 
